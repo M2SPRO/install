@@ -2,6 +2,6 @@
 apt update 
 apt upgrade -y
 apt install curl -y
-wget https://github.com/beto107/SSHBYBETOVIP/raw/main/$(uname -m)/sshplus
+wget https://github.com/M2SPRO/install/raw/main/$(uname -m)/sshplus
 chmod +x sshplus
 ./sshplus
